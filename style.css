@@ -1,0 +1,53 @@
+/*
+	CSS de Hyperplanning v2
+	Je ne suis ni graphiste, ni webdesigner
+	Merci de ne pas me juger sur mon CSS.
+*/
+
+
+
+/* TABLEAU */
+table td.matiere:hover {
+	background-color: #F2F2F2;
+	cursor:zoom-in;
+
+}
+
+/* MODAL */
+div#c_modal {
+	border: 1px solid black;
+	background-color: #C0F1F9;
+	padding: 16px;
+
+	position: absolute;
+	display: none;
+	cursor: pointer;
+}
+div#c_modal:hover {	background-color: #D6F7FC;}
+
+
+
+/* Context menu */
+.context-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #9CC8FA;
+    color: #333;
+    border-radius: 5px;
+    padding: 0;
+}
+.context-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+    list-style-type: none;
+    transition: all .3s ease;
+    user-select: none;
+}
+.context-menu li:hover {
+    background-color: #DEF;
+}
